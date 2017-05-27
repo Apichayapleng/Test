@@ -1,14 +1,18 @@
 nav li .navsport {
   background-color: #FA8258; }
 
-/* Large desktop */
-@media (min-width: 1200px) {
-  .container {
-    width: 1107px; } }
-
-/* Portrait tablet to landscape and desktop */
-/* Landscape phone to portrait tablet */
 /* Landscape phones and down */
 @media (max-width: 480px) {
   .logo img.imgset {
     display: none; } }
+
+/* Landscape phone to portrait tablet */
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .container {
+    width: 1107px; } }
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  .container {
+    width: 1107px; } }
