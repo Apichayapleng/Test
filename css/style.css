@@ -62,6 +62,10 @@ header {
   margin-right: auto;
   background-color: white; }
 
+.side-ad img {
+  max-width: 100%;
+  position: relative; }
+
 footer {
   background-color: #2E2E2E;
   color: #B7B7B7; }

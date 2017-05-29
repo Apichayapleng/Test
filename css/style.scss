@@ -81,6 +81,7 @@ header {
     margin-right: auto;
 }
 
+
 .websitewidthbody {
 	background: linear-gradient(#BDBDBD,white);
 }
@@ -91,6 +92,13 @@ header {
     margin-left: auto;
     margin-right: auto;
 	background-color: white;
+}
+
+.side-ad {
+	img {
+		max-width: 100%;
+		position:relative;
+	}
 }
 
 footer {
