@@ -1,18 +1,10 @@
-nav li .navsport {
-	background-color: #FA8258;
-}
+$darkgray: #2E2E2E;
+$lightgray: #464646;
+$creamgray: #6A6A6A;
+$brightgray: #B7B7B7;
 
-.navlogin {
-
-}
- 
 /* Landscape phones and down */
 @media (max-width: 480px) {
-	.logo {
-		img.imgset{
-			display: none;
-		}
-	}
 }
  
 /* Landscape phone to portrait tablet */
@@ -22,15 +14,93 @@ nav li .navsport {
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) { 
-	.container{
-    	width: 1107px;
-    }
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
-    .container{
-    	width: 1107px;
-    }
+
+}
+.websitewidthtop{
+    width: 1107px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+header {
+	background-color: $darkgray;
+}
+
+.navbar-inverse {
+    background-color: $lightgray;
+    background-image: none;
+    background-repeat: no-repeat;
+	color: $brightgray;
+}
+
+ .navbar-inverse .navbar-nav > li > a:hover, 
+    .navbar-inverse .navbar-nav > li > a:focus {
+      color: white;
+      text-decoration: none;
+	  background-color: $creamgray;
+}
+
+.navsport {
+	text-align: left;
+  	background-color: #FA8258; 
+}
+
+.navlogin {
+	text-align: left;
+  	background-color: #FA5858; 
+}
+
+.header-segment{
+	width: 1107px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	background-color: white;
+}
+
+.websitewidthlogo{
+	background-color: #D8D8D8;
+}
+
+
+ .navbar-inverse .sidebar-nav > li > a:hover, 
+    .navbar-inverse .sidebar-nav > li > a:focus {
+      color: white;
+      text-decoration: none;
+	  background-color: $creamgray;
+}
+
+.social-logo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.websitewidthbody {
+	background: linear-gradient(#BDBDBD,white);
+}
+
+.setbodywidth {
+	width: 1107px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	background-color: white;
+}
+
+footer {
+	background-color: $darkgray;
+	color: $brightgray;
+}
+
+.sponsor {
+	background-color: $lightgray;
+	a {
+		color: $brightgray;
+	}
+}
