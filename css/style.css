@@ -55,6 +55,20 @@ header {
 .websitewidthbody {
   background: linear-gradient(#BDBDBD, white); }
 
+.cover-page img {
+  max-width: 100%;
+  position: relative;
+  background-color: #B7B7B7; }
+
+.cover-page h2 {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+  color: white;
+  bottom: 0px;
+  font-size: 40px; }
+
 .setbodywidth {
   width: 1107px;
   display: block;
