@@ -1,3 +1,6 @@
+.for-header {
+  background-color: #2E2E2E; }
+
 .websitewidth {
   width: 1107px;
   margin-left: auto;
@@ -29,13 +32,39 @@
   color: #B7B7B7;
   text-align: center; }
 
-.navbar-inverse .navbar-nav .sidebar-nav .navbar-inverse .navbar-nav .sidebar-nav > li > a:hover, .navbar-inverse .navbar-nav .sidebar-nav .navbar-inverse .navbar-nav .sidebar-nav > li > a:focus {
+.navbar-inverse > li > a:hover, .navbar-inverse > li > a:focus, .navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .sidebar-nav > li > a:hover, .sidebar-nav > li > a:focus {
   color: white;
   text-decoration: none;
   background-color: #6A6A6A; }
 
+.navbar-inverse > li > a, .navbar-nav > li > a, .sidebar-nav > li > a {
+  color: #6A6A6A; }
+  .navbar-inverse > li > a:hover, .navbar-inverse > li > a:focus, .navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .sidebar-nav > li > a:hover, .sidebar-nav > li > a:focus {
+    color: white;
+    text-decoration: none;
+    background-color: #6A6A6A; }
+
+.navsport {
+  text-align: left;
+  background-color: #FA8258; }
+  .navsport:hover {
+    background-color: #FE642E; }
+
+.navlogin {
+  text-align: left;
+  background-color: #FA5858; }
+  .navlogin:hover {
+    background-color: #FE2E2E; }
+
 .side-ad img {
   max-width: 100%; }
+
+article {
+  color: #5F4C0B; }
+  article a {
+    color: #FA8258; }
+    article a:hover {
+      color: #FE2E2E; }
 
 .sponsor {
   background-color: #464646; }

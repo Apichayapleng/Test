@@ -3,6 +3,10 @@ $lightgray: #464646;
 $creamgray: #6A6A6A;
 $brightgray: #B7B7B7;
 
+.for-header {
+	background-color: $darkgray;
+}
+
 .websitewidth{
     width: 1107px;
     margin-left: auto;
@@ -42,8 +46,7 @@ $brightgray: #B7B7B7;
 		text-align: center;
 }
 
-.navbar-inverse .navbar-nav .sidebar-nav{
-	.navbar-inverse .navbar-nav .sidebar-nav{
+.navbar-inverse, .navbar-nav, .sidebar-nav{
 		> li {
 			> a {
 				&:hover, &:focus {
@@ -53,13 +56,51 @@ $brightgray: #B7B7B7;
 				}
 			}
 		}
-	}
 }
 
+.navbar-inverse, .navbar-nav, .sidebar-nav{
+		> li {
+			> a {
+				color: $creamgray;
+				&:hover, &:focus {
+					color: white;
+					text-decoration: none;
+					background-color: $creamgray;
+				}
+			}
+		}
+	}
+
+
+.navsport {
+	text-align: left;
+  	background-color: #FA8258; 
+	  &:hover {
+		  background-color: #FE642E;
+	  }
+}
+
+.navlogin {
+	text-align: left;
+  	background-color: #FA5858; 
+	  &:hover {
+		  background-color: #FE2E2E;
+	  }
+}
 
 .side-ad {
 	img {
 		max-width: 100%;
+	}
+}
+
+article {
+	color: #5F4C0B;
+	a {
+		color: #FA8258;
+		&:hover{
+			color: #FE2E2E;
+		}
 	}
 }
 
