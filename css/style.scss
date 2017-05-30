@@ -39,11 +39,18 @@ header {
 	color: $brightgray;
 }
 
- .navbar-inverse .navbar-nav > li > a:hover, 
-    .navbar-inverse .navbar-nav > li > a:focus {
-      color: white;
-      text-decoration: none;
-	  background-color: $creamgray;
+ .navbar-inverse .navbar-nav {
+	 .navbar-inverse .navbar-nav{
+		> li {
+			> a {
+				&:hover, &:focus {
+					color: white;
+					text-decoration: none;
+					background-color: $creamgray;
+				}
+			}
+		}
+	}
 }
 
 .navsport {
